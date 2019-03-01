@@ -8,6 +8,7 @@ class SongsController < ApplicationController
     end
     redirect_to songs_path
   end
+
   def index
     @songs = Song.all
   end
